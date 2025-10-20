@@ -17,7 +17,12 @@ text$Group <- as.factor(text$Group)
 library(ggplot2)
 
 ggplot(text,aes(x=Group,y=value)) + geom_boxplot()
+#NOTES: In Group 1, There are a couple of outliers. The data looks normally
+#distributed. My 25th percentile is about 53 a.....
+
+#Bar plot LBM  (9, 16 )
+ggplot(text, aes(x=value)) + geom_bar()
 
 
-
+### Stats ###
 
