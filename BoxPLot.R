@@ -17,7 +17,6 @@ text$Group <- as.factor(text$Group)
 library(ggplot2)
 
 ggplot(text,aes(x=Group,y=value)) + geom_boxplot()
-
 #Visually, the graph for participants in group 1 shows that the median is about
 #65. Also, we can see that there are two outliers below the minimum value. For 
 #group 2, the median seems to be about 68. Meanwhile, there are no outliers. 
